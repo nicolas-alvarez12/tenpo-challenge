@@ -1,0 +1,41 @@
+version: '3.1'
+
+services:
+  app:
+    image: 'app:latest'
+    build:
+      context: ./app
+    container_name: app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/tenpo
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
+  external:
+    image: 'external:latest'
+    build:
+      context: ./external
+    container_name: external
+    ports:
+      - "8081:8081"
+
+  db:
+    image: 'postgres:13.1-alpine'
+    container_name: db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=tenpo
+
+  redis:
+    image: 'redis'
+    ports:
+      - "6379:6379"
+    container_name: redis
