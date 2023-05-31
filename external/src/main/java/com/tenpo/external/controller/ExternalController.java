@@ -2,7 +2,6 @@ package com.tenpo.external.controller;
 
 import com.tenpo.external.controller.model.Response;
 import com.tenpo.external.service.ExternalService;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,7 +19,7 @@ public class ExternalController {
 
     @GetMapping(produces = "application/json", path = "/percentage")
     public ResponseEntity<Response> calculatePercentage() {
-        return new ResponseEntity<Response>(new Response(externalService.calculatePercentage()), HttpStatus.OK);
+        return ResponseEntity.ok(new Response(externalService.calculatePercentage()));
     }
 
 }

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b68f981-9585-4ba3-9788-67842868beb9" name="Changes" comment="" />
+    <list default="true" id="1b68f981-9585-4ba3-9788-67842868beb9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +52,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "3bc8fb59d5cf6e78024d6c4cb5ee93e9",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,6 +71,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.tenpo.external.controller" />
       <recent name="com.tenpo.app.service" />
       <recent name="com.tenpo.app.controller" />
     </key>
@@ -75,7 +79,7 @@
       <recent name="com.tenpo.app.exception" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EndpointAuditServiceTest.whenSaveEndpointAudit_endpointAuditRepositorySavedOnce">
+  <component name="RunManager" selected="JUnit.ExternalControllerTest.whenCalculatePercentage_thenReturnResponse">
     <configuration name="ArithmeticServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -86,21 +90,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.tenpo.app.service" />
       <option name="MAIN_CLASS_NAME" value="com.tenpo.app.service.ArithmeticServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EndpointAuditControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tenpo.app.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tenpo.app.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.tenpo.app.controller.EndpointAuditControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,6 +143,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExternalControllerTest.whenCalculatePercentage_thenReturnResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="external" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tenpo.external.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tenpo.external.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.tenpo.external.controller.ExternalControllerTest" />
+      <option name="METHOD_NAME" value="whenCalculatePercentage_thenReturnResponse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tenpo.app.AppApplication" />
@@ -170,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExternalControllerTest.whenCalculatePercentage_thenReturnResponse" />
         <item itemvalue="JUnit.EndpointAuditServiceTest.whenSaveEndpointAudit_endpointAuditRepositorySavedOnce" />
         <item itemvalue="JUnit.EndpointAuditServiceTest.whenGetAllEndpointsAudit_thenEndpointAuditResponse" />
         <item itemvalue="JUnit.ArithmeticServiceTest" />
         <item itemvalue="JUnit.EndpointAuditControllerTest.givenEmployees_whenGetEmployees_thenReturnJsonArray" />
-        <item itemvalue="JUnit.EndpointAuditControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684953781381</updated>
       <workItem from="1684953782832" duration="30080000" />
+      <workItem from="1685513215121" duration="1812000" />
     </task>
     <servers />
   </component>
