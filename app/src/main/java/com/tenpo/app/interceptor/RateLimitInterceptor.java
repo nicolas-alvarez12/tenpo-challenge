@@ -1,6 +1,5 @@
 package com.tenpo.app.interceptor;
 
-import com.tenpo.app.exception.TooManyRequestsException;
 import io.github.bucket4j.local.LocalBucket;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;

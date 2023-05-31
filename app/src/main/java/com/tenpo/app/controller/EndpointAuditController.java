@@ -1,5 +1,6 @@
 package com.tenpo.app.controller;
 
+import com.tenpo.app.model.EndpointAuditResponse;
 import com.tenpo.app.service.EndpointAuditService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,7 +19,7 @@ public class EndpointAuditController {
     }
 
     @GetMapping(produces = "application/json")
-    public ResponseEntity<?> auditEndpoints(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "3") int size) {
+    public ResponseEntity<EndpointAuditResponse> auditEndpoints(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "3") int size) {
         return ResponseEntity.ok(endpointAuditService.getAllEndpointsAudit(page, size));
     }
 

@@ -25,13 +25,13 @@ public class ArithmeticController {
     }
 
     @GetMapping(produces = "application/json")
-    public ResponseEntity<?> calculate(@RequestParam float firstValue, @RequestParam float secondValue) {
+    public ResponseEntity<Response> calculate(@RequestParam float firstValue, @RequestParam float secondValue) {
         Response response = arithmeticService.calculate(firstValue, secondValue);
 
         var gson = new Gson();
         this.endpointAuditService.saveEndpointAudit("GET /api/arithmetic", HttpStatus.OK.value(), gson.toJson(response));
 
-        return new ResponseEntity<>(response, HttpStatus.OK);
+        return ResponseEntity.ok(response);
     }
 
 }

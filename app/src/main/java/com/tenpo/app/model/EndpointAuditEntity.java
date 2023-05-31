@@ -1,5 +1,8 @@
 package com.tenpo.app.model;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 
 @Entity

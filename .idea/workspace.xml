@@ -5,58 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b68f981-9585-4ba3-9788-67842868beb9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tenpo/app/AppApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tenpo/app/cache/CacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tenpo/app/client/ExternalServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tenpo/app/controller/ArithmeticController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tenpo/app/controller/EndpointAuditController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tenpo/app/controller/model/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tenpo/app/model/EndpointAuditDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tenpo/app/model/EndpointAuditEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tenpo/app/model/EndpointAuditResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tenpo/app/model/ExternalPercentageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tenpo/app/repository/EndpointAuditRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tenpo/app/service/ArithmeticService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tenpo/app/service/EndpointAuditService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/tenpo/app/AppApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/src/main/java/com/tenpo/external/ExternalApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/src/main/java/com/tenpo/external/controller/ExternalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/src/main/java/com/tenpo/external/controller/model/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/src/main/java/com/tenpo/external/service/ExternalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/src/test/java/com/tenpo/external/ExternalApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/external" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -75,6 +41,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "corretto-11",
     "last_opened_file_path": "/Users/nicolasalvarez/tenpo-interview/challenge/external",
     "node.js.detected.package.eslint": "true",
@@ -88,6 +56,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/external" />
@@ -96,8 +67,96 @@
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/tenpo/app" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.tenpo.app.service" />
+      <recent name="com.tenpo.app.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tenpo.app.exception" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppApplication">
+  <component name="RunManager" selected="JUnit.EndpointAuditServiceTest.whenSaveEndpointAudit_endpointAuditRepositorySavedOnce">
+    <configuration name="ArithmeticServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tenpo.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tenpo.app.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tenpo.app.service.ArithmeticServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EndpointAuditControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tenpo.app.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tenpo.app.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.tenpo.app.controller.EndpointAuditControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EndpointAuditControllerTest.givenEmployees_whenGetEmployees_thenReturnJsonArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tenpo.app.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tenpo.app.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.tenpo.app.controller.EndpointAuditControllerTest" />
+      <option name="METHOD_NAME" value="givenEmployees_whenGetEmployees_thenReturnJsonArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EndpointAuditServiceTest.whenGetAllEndpointsAudit_thenEndpointAuditResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tenpo.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tenpo.app.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tenpo.app.service.EndpointAuditServiceTest" />
+      <option name="METHOD_NAME" value="whenGetAllEndpointsAudit_thenEndpointAuditResponse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EndpointAuditServiceTest.whenSaveEndpointAudit_endpointAuditRepositorySavedOnce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tenpo.app.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tenpo.app.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tenpo.app.service.EndpointAuditServiceTest" />
+      <option name="METHOD_NAME" value="whenSaveEndpointAudit_endpointAuditRepositorySavedOnce" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tenpo.app.AppApplication" />
@@ -112,6 +171,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EndpointAuditServiceTest.whenSaveEndpointAudit_endpointAuditRepositorySavedOnce" />
+        <item itemvalue="JUnit.EndpointAuditServiceTest.whenGetAllEndpointsAudit_thenEndpointAuditResponse" />
+        <item itemvalue="JUnit.ArithmeticServiceTest" />
+        <item itemvalue="JUnit.EndpointAuditControllerTest.givenEmployees_whenGetEmployees_thenReturnJsonArray" />
+        <item itemvalue="JUnit.EndpointAuditControllerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -121,11 +189,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684953781381</updated>
-      <workItem from="1684953782832" duration="11454000" />
+      <workItem from="1684953782832" duration="28794000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/tenpo/app/controller/ArithmeticController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
